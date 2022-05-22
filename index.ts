@@ -1,4 +1,5 @@
-import { InitiateMongoServer, Server } from './src/config';
+import InitiateMongoServer from './src/config';
+import Server from './src';
 
 InitiateMongoServer();
 Server();
