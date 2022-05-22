@@ -1,9 +1,12 @@
-import { addFood, getFoodList } from "./food/food.controller";
+import { addFood, getFoodList, updateFood, deleteFood, getDetailFood } from "./food/food.controller";
 import { Home, Init } from "./init/init.controller";
 
 export { 
   addFood, 
   getFoodList,
-  Home, 
-  Init 
+  getDetailFood,
+  updateFood,
+  deleteFood,
+  Home,
+  Init,
 };
